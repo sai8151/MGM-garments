@@ -41,7 +41,7 @@ main {
 }
 /* Header Logo */
 .header-logo {
-  background-image: url("images/logo.svg");
+  background-image: url("https://w7.pngwing.com/pngs/961/132/png-transparent-lighted-brown-candle-diwali-candle-diya-diya-wish-lantern-holidays.png");
   background-size: 90%;
   background-repeat: no-repeat;
   width: 4.5rem;
@@ -147,13 +147,14 @@ main {
 
 /* Statistics IMG */
 .statistics-img {
-  background-image: url("images/illustration-dashboard.png");
+  background-image: url("https://images.jdmagicbox.com/comp/def_content/readymade_garment_retailers/default-readymade-garment-retailers-5.jpg?temp=1");
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: top;
   height: 40rem;
   width: 40rem;
   margin-top: 4.3rem;
+  margin-bottom: 1rem;
 }
 
 /* Footer */
