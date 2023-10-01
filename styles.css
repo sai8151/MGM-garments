@@ -41,11 +41,11 @@ main {
 }
 /* Header Logo */
 .header-logo {
-  background-image: url("https://w7.pngwing.com/pngs/961/132/png-transparent-lighted-brown-candle-diwali-candle-diya-diya-wish-lantern-holidays.png");
-  background-size: 90%;
+  background-image: url("/logo.png");
+  background-size: 98%;
   background-repeat: no-repeat;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 5rem;
+  height: 5rem;
 }
 /* Title Section */
 .title-section {
