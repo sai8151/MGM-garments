@@ -17,8 +17,10 @@
             background-repeat: no-repeat;
             background-image: url('/peakpx.jpg');
             min-height: 1080px;
+
         }
 
+        
         h1 {
             color: rgb(255, 166, 0);
             font-family: 'Pixelify Sans', cursive;
@@ -30,28 +32,105 @@
             font-family: 'Fuggles', cursive;
             font-family: 'Pixelify Sans', cursive;
             font-size: 16pt;
-
+            text-align: justify;
         }
 
         div {
             align-self: center;
             margin: 20%;
         }
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+        text-shadow: 0 0 10px rgb(255, 166, 0);
+
+    }
+    25% {
+        opacity: 1;
+        text-shadow: 0 0 20px rgb(255, 166, 0);
+
+    }
+    75% {
+        opacity: 1;
+        text-shadow: 0 0 10px rgba(255, 166, 0, 0.925);
+
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.letter {
+    animation: blink 1s linear infinite;
+    display: inline-block;
+    opacity: 0;
+}
+
+.letter:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.letter:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.letter:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.letter:nth-child(4) {
+    animation-delay: 3s;
+}
+
+.letter:nth-child(5) {
+    animation-delay: 4s;
+}
+
+.letter:nth-child(6) {
+    animation-delay: 5s;
+}
+
+.letter:nth-child(7) {
+    animation-delay: 6s;
+}
+.letter:nth-child(8) {
+    animation-delay: 7s;
+}
+.letter:nth-child(9) {
+    animation-delay: 8s;
+}
+.letter:nth-child(10) {
+    animation-delay: 9s;
+}
+
+
     </style>
 </head>
 
 <body>
     <center>
         <div>
-            <h1>Loading...</h1>
+            <h1>
+                <span class="letter">L</span>
+                <span class="letter">o</span>
+                <span class="letter">a</span>
+                <span class="letter">d</span>
+                <span class="letter">i</span>
+                <span class="letter">n</span>
+                <span class="letter">g</span>
+                <span class="letter">.</span>
+                <span class="letter">.</span>
+                <span class="letter">.</span>
+            </h1>
             <p>
-                👕 Fresh Collections: Get ready to explore the latest trends in shirts, t-shirts, jeans, trousers, and
+                <u>Fresh Collections:</u> Get ready to explore the latest trends in shirts, t-shirts, jeans, trousers, and
                 more. We've curated a range of stylish options just for you.
                 <br><br>
-                🛍 Convenience: We understand the importance of hassle-free shopping. Expect a seamless, user-friendly
+                <u>Convenience:</u> We understand the importance of hassle-free shopping. Expect a seamless, user-friendly
                 online shopping experience that allows you to browse, choose, and purchase with ease.
                 <br><br>
-                🌟 Quality and Comfort: Our commitment to quality remains unwavering. You can look forward to garments
+                <u>Quality and Comfort:</u> Our commitment to quality remains unwavering. You can look forward to garments
                 that not only look good but feel great when you wear them.
 
             </p>
